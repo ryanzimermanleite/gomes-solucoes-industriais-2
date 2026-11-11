@@ -1,0 +1,505 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <title>Gomes Engenharia | Indústrias, logísticas e residências</title>
+  <meta name="description" content="Há mais de 30 anos a Gomes Engenharia executa montagem e manutenção industrial, coberturas, pinturas, reformas e construção para indústrias, operações logísticas e residências em SP e MG.">
+  <meta name="theme-color" content="#06081c">
+  <!-- Prévia de modelo: impede que o Google indexe este endereço. Remover ao publicar no domínio definitivo. -->
+  <meta name="robots" content="noindex, nofollow">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="pt_BR">
+  <meta property="og:title" content="Gomes Engenharia | Mais que obras, grandes resultados">
+  <meta property="og:description" content="Indústrias, logísticas e residências. Mais de 30 anos em obras, reformas e serviços industriais.">
+  <meta property="og:image" content="assets/img/og.jpg">
+
+  <link rel="icon" type="image/png" href="assets/img/marca/favicon.png">
+  <link rel="apple-touch-icon" href="assets/img/marca/apple-touch-icon.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="preload" as="image" href="assets/img/projetos/montagem-industrial/capa.webp">
+  <link rel="stylesheet" href="assets/css/style.css?v=1">
+  <script>document.documentElement.classList.add("js");</script>
+</head>
+<body>
+  <!-- Abertura: o anel se completa em volta do símbolo e a cortina sobe -->
+  <div class="abertura" id="abertura" aria-hidden="true">
+    <div class="abertura-marca">
+      <svg class="abertura-anel" viewBox="0 0 120 120"><circle cx="60" cy="60" r="56"/></svg>
+      <img src="assets/img/marca/simbolo-branco.png" alt="" width="64" height="64">
+    </div>
+    <p class="abertura-nome">GOMES ENGENHARIA</p>
+  </div>
+
+  <div class="progresso" aria-hidden="true"><span id="progresso"></span></div>
+  <div class="cursor" id="cursor" aria-hidden="true"><span class="cursor-anel"></span><span class="cursor-texto" id="cursor-texto"></span></div>
+  <a class="pular" href="#conteudo">Pular para o conteúdo</a>
+
+  <header class="topo" id="topo">
+    <div class="wrap topo-in">
+      <a class="marca" href="#inicio" aria-label="Gomes Engenharia, ir para o início">
+        <img src="assets/img/marca/simbolo-branco.png" alt="" width="42" height="42">
+        <span class="marca-texto"><strong>GOMES ENGENHARIA</strong><small>Indústrias, Logísticas e Residências</small></span>
+      </a>
+      <nav class="nav" aria-label="Principal">
+        <a href="#sobre">Sobre</a>
+        <a href="#servicos">Serviços</a>
+        <a href="#projetos">Projetos</a>
+        <a href="#clientes">Clientes</a>
+        <a href="#contato">Contato</a>
+      </nav>
+      <a class="btn btn-verde btn-pequeno topo-cta magnetico" href="https://wa.me/5519989090391?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener"><span>Orçamento</span></a>
+      <button class="menu-btn" id="menu-btn" type="button" aria-expanded="false" aria-controls="menu-cheio">
+        <span class="menu-btn-linhas" aria-hidden="true"><i></i><i></i></span>
+        <span class="sr">Abrir menu</span>
+      </button>
+    </div>
+  </header>
+
+  <!-- Menu do celular: tela cheia com links grandes -->
+  <div class="menu-cheio" id="menu-cheio" hidden>
+    <nav class="menu-cheio-nav" aria-label="Menu">
+      <a href="#sobre"><i>01</i>Sobre</a>
+      <a href="#servicos"><i>02</i>Serviços</a>
+      <a href="#projetos"><i>03</i>Projetos</a>
+      <a href="#clientes"><i>04</i>Clientes</a>
+      <a href="#contato"><i>05</i>Contato</a>
+    </nav>
+    <div class="menu-cheio-rodape">
+      <a href="https://wa.me/5519989090391" target="_blank" rel="noopener">WhatsApp (19) 98909-0391</a>
+      <a href="tel:+551932550660">(19) 3255-0660</a>
+      <a href="mailto:comercial@enggomes.com">comercial@enggomes.com</a>
+    </div>
+  </div>
+
+  <main id="conteudo">
+
+    <!-- ===================== INÍCIO: título + três painéis que se expandem ===================== -->
+    <section class="hero" id="inicio">
+      <div class="hero-grade" aria-hidden="true"></div>
+      <div class="hero-luz" id="hero-luz" aria-hidden="true"></div>
+
+      <div class="wrap hero-topo">
+        <div>
+          <p class="kicker entra"><span class="pulso" aria-hidden="true"></span>Engenharia · Manutenção · Montagem industrial</p>
+          <h1 class="hero-titulo">
+            <span class="linha"><span>Mais que obras,</span></span>
+            <span class="linha"><span>grandes <em>resultados.</em></span></span>
+          </h1>
+        </div>
+        <div class="hero-lado entra">
+          <p>Há mais de 30 anos transformamos desafios em soluções, com qualidade, segurança e compromisso com os resultados.</p>
+          <a class="btn btn-verde magnetico" href="https://wa.me/5519989090391?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener">
+            <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.77 2.77 0 0 0-.86 2.06 4.8 4.8 0 0 0 1 2.56 11 11 0 0 0 4.2 3.7c1.57.68 2.18.74 2.96.62.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+            <span>Solicitar orçamento</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="paineis entra" id="paineis">
+        <article class="painel is-ativo" tabindex="0" data-cursor="Indústrias">
+          <img src="assets/img/projetos/montagem-industrial/capa.webp" alt="Linha de esteiras transportadoras montada pela Gomes em área industrial" width="800" height="600">
+          <div class="painel-conteudo">
+            <span class="painel-num">01</span>
+            <h2 class="painel-titulo">Indústrias</h2>
+            <div class="painel-extra"><div>
+              <p class="painel-texto">Montagem e manutenção industrial, pisos, plataformas, guarda-corpos e adequação à NR-12.</p>
+              <a class="painel-link" href="#servicos">Ver serviços</a>
+            </div></div>
+          </div>
+          <span class="painel-barra" aria-hidden="true"><i></i></span>
+        </article>
+        <article class="painel" tabindex="0" data-cursor="Logísticas">
+          <img src="assets/img/projetos/coberturas/capa.webp" alt="Cobertura metálica de galpão com exaustores eólicos em manutenção" width="800" height="600" loading="lazy">
+          <div class="painel-conteudo">
+            <span class="painel-num">02</span>
+            <h2 class="painel-titulo">Logísticas</h2>
+            <div class="painel-extra"><div>
+              <p class="painel-texto">Coberturas de galpões, troca de telhas e domus, reservatórios e tubulações, no ritmo da operação.</p>
+              <a class="painel-link" href="#projetos">Ver projetos</a>
+            </div></div>
+          </div>
+          <span class="painel-barra" aria-hidden="true"><i></i></span>
+        </article>
+        <article class="painel" tabindex="0" data-cursor="Residências">
+          <img src="assets/img/projetos/residencial/capa.webp" alt="Residência de alto padrão com piscina, construída com gestão de obra da Gomes" width="800" height="600" loading="lazy">
+          <div class="painel-conteudo">
+            <span class="painel-num">03</span>
+            <h2 class="painel-titulo">Residências</h2>
+            <div class="painel-extra"><div>
+              <p class="painel-texto">Construção e gestão de obras de alto padrão, fachadas e manutenção de condomínios.</p>
+              <a class="painel-link" href="#projetos">Ver projetos</a>
+            </div></div>
+          </div>
+          <span class="painel-barra" aria-hidden="true"><i></i></span>
+        </article>
+      </div>
+    </section>
+
+    <!-- ===================== FAIXA DE TEXTO (inclina com a velocidade da rolagem) ===================== -->
+    <section class="faixa-texto" aria-label="Indústrias, logísticas e residências">
+      <div class="trilho">
+        <div class="trilho-conteudo" aria-hidden="true">
+          <span>Indústrias</span><b>✦</b><span class="contorno">Logísticas</span><b>✦</b><span>Residências</span><b>✦</b>
+          <span>Indústrias</span><b>✦</b><span class="contorno">Logísticas</span><b>✦</b><span>Residências</span><b>✦</b>
+        </div>
+      </div>
+      <div class="trilho trilho-volta">
+        <div class="trilho-conteudo" aria-hidden="true">
+          <span>Montagem</span><b>/</b><span>Manutenção</span><b>/</b><span>Pintura</span><b>/</b><span>Reforma</span><b>/</b><span>Construção</span><b>/</b><span>Trabalho em altura</span><b>/</b>
+          <span>Montagem</span><b>/</b><span>Manutenção</span><b>/</b><span>Pintura</span><b>/</b><span>Reforma</span><b>/</b><span>Construção</span><b>/</b><span>Trabalho em altura</span><b>/</b>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== NÚMEROS (odômetro) ===================== -->
+    <section class="numeros" id="numeros" aria-label="Números da Gomes">
+      <div class="wrap numeros-grade">
+        <div class="numero" data-revela>
+          <p class="numero-valor"><span class="odo">+30</span></p>
+          <p class="numero-rotulo"><strong>anos</strong> de experiência em obras, reformas e serviços industriais</p>
+        </div>
+        <div class="numero" data-revela>
+          <p class="numero-valor"><span class="odo">4.700</span></p>
+          <p class="numero-rotulo"><strong>domus</strong> substituídos em uma única cobertura industrial</p>
+        </div>
+        <div class="numero" data-revela>
+          <p class="numero-valor">SP<span class="numero-mais">+</span>MG</p>
+          <p class="numero-rotulo"><strong>obras entregues</strong> na região de Campinas, na capital e no sul de Minas</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SOBRE (frase acende conforme a rolagem) ===================== -->
+    <section class="sobre" id="sobre">
+      <div class="wrap sobre-grade">
+        <figure class="sobre-foto">
+          <img src="assets/img/sobre.webp" alt="Equipe da Gomes em plataforma elevatória durante manutenção de cobertura metálica" width="900" height="1000" loading="lazy">
+          <figcaption><span>30+</span> anos de mercado</figcaption>
+        </figure>
+        <div class="sobre-texto">
+          <p class="rotulo" data-revela>Quem somos</p>
+          <p class="frase" id="frase">A Gomes une <mark>qualidade</mark>, <mark>segurança</mark> e <mark>compromisso</mark> para tirar do papel obras, reformas e montagens industriais, do primeiro projeto à entrega final.</p>
+          <p class="sobre-apoio" data-revela>Nossa equipe tem todas as licenças e a documentação necessárias para trabalhar dentro da sua operação e entregar, com segurança, o melhor resultado. Do chão de fábrica à fachada do hotel, no ritmo de cada operação.</p>
+          <ul class="pilares">
+            <li data-revela><span>01</span><strong>Qualidade</strong><p>Acabamento e durabilidade em cada entrega.</p></li>
+            <li data-revela><span>02</span><strong>Segurança</strong><p>Equipe habilitada para altura e áreas industriais.</p></li>
+            <li data-revela><span>03</span><strong>Compromisso</strong><p>Foco no resultado que o cliente precisa.</p></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===================== SERVIÇOS (imagem acompanha o mouse) ===================== -->
+    <section class="servicos" id="servicos">
+      <div class="wrap">
+        <header class="secao-topo" data-revela>
+          <p class="rotulo">Serviços</p>
+          <h2 class="secao-titulo">Uma equipe para montar, manter, reformar e construir.</h2>
+        </header>
+
+        <ol class="servicos-lista" id="servicos-lista">
+          <li class="servico" data-img="assets/img/projetos/montagem-industrial/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv1">
+              <span class="servico-num">01</span><span class="servico-nome">Montagem e manutenção industrial</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv1"><div class="servico-in">
+              <img src="assets/img/projetos/montagem-industrial/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Instalações e montagens industriais em mecânica, elétrica, estruturas metálicas, tubulações e instrumentação.</p>
+              <ul><li>Manutenção, montagem e fabricação de equipamentos</li><li>Plataformas e guarda-corpos em aço carbono e inox</li><li>Projeto e adequação à NR-12</li></ul>
+            </div></div>
+          </li>
+          <li class="servico" data-img="assets/img/projetos/nortel/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv2">
+              <span class="servico-num">02</span><span class="servico-nome">Pinturas e revestimentos</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv2"><div class="servico-in">
+              <img src="assets/img/projetos/nortel/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Pintura predial, comercial e industrial com preparo correto da superfície.</p>
+              <ul><li>Texturas, grafiato e quartzo</li><li>Tratamento de concreto, tijolos e ferragens</li><li>Letreiros e demarcação de garagens</li></ul>
+            </div></div>
+          </li>
+          <li class="servico" data-img="assets/img/projetos/tenda-vestiarios/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv3">
+              <span class="servico-num">03</span><span class="servico-nome">Reformas e construções</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv3"><div class="servico-in">
+              <img src="assets/img/projetos/tenda-vestiarios/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Reformas gerais em ambientes comerciais, industriais e residenciais.</p>
+              <ul><li>Alvenaria e acabamentos</li><li>Drywall e armações metálicas</li><li>Montagem e desmontagem de equipamentos industriais</li></ul>
+            </div></div>
+          </li>
+          <li class="servico" data-img="assets/img/projetos/park-tower/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv4">
+              <span class="servico-num">04</span><span class="servico-nome">Restauração e manutenção predial</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv4"><div class="servico-in">
+              <img src="assets/img/projetos/park-tower/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Recuperação de fachadas e estruturas para prolongar a vida útil do imóvel.</p>
+              <ul><li>Trincas, fissuras e umidade</li><li>Fachadas, pastilhas e cerâmicas</li><li>Telhados, estruturas metálicas e revisão geral</li></ul>
+            </div></div>
+          </li>
+          <li class="servico" data-img="assets/img/projetos/residencial/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv5">
+              <span class="servico-num">05</span><span class="servico-nome">Construção e gestão de obra</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv5"><div class="servico-in">
+              <img src="assets/img/projetos/residencial/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Construção de novas edificações com acompanhamento técnico em todas as etapas.</p>
+              <ul><li>Gestão de obras residenciais de alto padrão</li><li>Stands de vendas, forros e salas</li><li>Plano e administração individualizados</li></ul>
+            </div></div>
+          </li>
+          <li class="servico" data-img="assets/img/projetos/coberturas/capa.webp">
+            <h3><button class="servico-cab" type="button" aria-expanded="false" aria-controls="sv6">
+              <span class="servico-num">06</span><span class="servico-nome">Manutenção em altura</span><span class="servico-icone" aria-hidden="true"></span>
+            </button></h3>
+            <div class="servico-corpo" id="sv6"><div class="servico-in">
+              <img src="assets/img/projetos/coberturas/capa.webp" alt="" width="800" height="600" loading="lazy">
+              <p>Reforma e manutenção de telhados industriais, fachadas e estruturas elevadas.</p>
+              <ul><li>Troca de telhas e domus</li><li>Limpeza de telhas e estruturas metálicas</li><li>Pintura de fachadas e brises</li></ul>
+            </div></div>
+          </li>
+        </ol>
+      </div>
+      <div class="flutuante" id="flutuante" aria-hidden="true"><img src="assets/img/projetos/montagem-industrial/capa.webp" alt="" width="800" height="600"></div>
+    </section>
+
+    <!-- ===================== PROJETOS (rolagem horizontal no computador, deslizar no celular) ===================== -->
+    <section class="projetos" id="projetos">
+      <div class="projetos-palco">
+        <div class="wrap projetos-topo">
+          <div>
+            <p class="rotulo">Projetos</p>
+            <h2 class="secao-titulo">Obras entregues.</h2>
+          </div>
+          <p class="projetos-dica"><span class="so-pc">Continue rolando</span><span class="so-cel">Deslize para o lado</span> · toque para ver as fotos</p>
+          <p class="projetos-contagem" aria-hidden="true"><span id="proj-atual">01</span><span class="projetos-total">/11</span></p>
+        </div>
+
+        <div class="projetos-trilho" id="trilho">
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="mecalux" data-cursor="Ver fotos" aria-label="Ver fotos: reservatório, tubulações e troca de 4.700 domus, Mecalux do Brasil">
+              <img src="assets/img/projetos/mecalux/capa.webp" alt="Plataforma elevatória junto ao reservatório de água da fábrica" width="800" height="600" loading="lazy">
+              <span class="card-fotos">4 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Indústria e logística</p><h3>Reservatório, tubulações e troca de 4.700 domus</h3><p class="card-local">Mecalux do Brasil · Hortolândia/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="myralis" data-cursor="Ver fotos" aria-label="Ver fotos: piso industrial para indústria farmacêutica, Myralis">
+              <img src="assets/img/projetos/myralis/capa.webp" alt="Piso industrial azul recém-executado em área de produção" width="800" height="600" loading="lazy">
+              <span class="card-fotos">3 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Indústria e logística</p><h3>Piso industrial para indústria farmacêutica</h3><p class="card-local">Myralis · Aguaí/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="residencial" data-cursor="Ver fotos" aria-label="Ver fotos: construção e gestão de obra residencial de alto padrão">
+              <img src="assets/img/projetos/residencial/capa.webp" alt="Vista aérea de residência de alto padrão com piscina" width="800" height="600" loading="lazy">
+              <span class="card-fotos">11 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Construção e residencial</p><h3>Construção e gestão de obra residencial</h3><p class="card-local">Residências de alto padrão</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="oyo" data-cursor="Ver fotos" aria-label="Ver fotos: pintura de fachadas e letreiros, hotéis OYO">
+              <img src="assets/img/projetos/oyo/capa.webp" alt="Fachada de hotel com o letreiro OYO pintado" width="800" height="600" loading="lazy">
+              <span class="card-fotos">9 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Comercial e hoteleiro</p><h3>Pintura de fachadas e letreiros</h3><p class="card-local">Hotéis OYO · Jacutinga/MG, Piracicaba/SP e São Carlos/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="park-tower" data-cursor="Ver fotos" aria-label="Ver fotos: pintura de brise, Hotel Park Tower">
+              <img src="assets/img/projetos/park-tower/capa.webp" alt="Profissionais em acesso por corda pintando o brise da fachada" width="800" height="600" loading="lazy">
+              <span class="card-fotos">7 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Comercial e hoteleiro</p><h3>Pintura de brise</h3><p class="card-local">Hotel Park Tower · Campinas/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="coberturas" data-cursor="Ver fotos" aria-label="Ver fotos: troca de telhas e manutenção de telhado industrial">
+              <img src="assets/img/projetos/coberturas/capa.webp" alt="Cobertura metálica com exaustores eólicos em manutenção" width="800" height="600" loading="lazy">
+              <span class="card-fotos">7 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Indústria e logística</p><h3>Troca de telhas e manutenção de telhado</h3><p class="card-local">Coberturas industriais</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="nortel" data-cursor="Ver fotos" aria-label="Ver fotos: restauração de fachada e pintura, Nortel">
+              <img src="assets/img/projetos/nortel/capa.webp" alt="Fachada industrial restaurada e pintada de azul" width="800" height="600" loading="lazy">
+              <span class="card-fotos">4 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Indústria e logística</p><h3>Restauração de fachada e pintura</h3><p class="card-local">Nortel · Campinas/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="hm-stand" data-cursor="Ver fotos" aria-label="Ver fotos: construção de stand de vendas, HM Engenharia">
+              <img src="assets/img/projetos/hm-stand/capa.webp" alt="Stand de vendas concluído" width="800" height="600" loading="lazy">
+              <span class="card-fotos">6 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Construção e residencial</p><h3>Construção de stand de vendas</h3><p class="card-local">HM Engenharia · Paulínia/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="tenda-vestiarios" data-cursor="Ver fotos" aria-label="Ver fotos: reforma dos vestiários, Tenda Atacado">
+              <img src="assets/img/projetos/tenda-vestiarios/capa.webp" alt="Vestiário reformado com divisórias e portas venezianas" width="800" height="600" loading="lazy">
+              <span class="card-fotos">8 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Comercial e hoteleiro</p><h3>Reforma dos vestiários</h3><p class="card-local">Tenda Atacado · Guarapiranga, São Paulo/SP</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="montagem-industrial" data-cursor="Ver fotos" aria-label="Ver fotos: montagem e adequação de equipamentos industriais">
+              <img src="assets/img/projetos/montagem-industrial/capa.webp" alt="Linha de esteiras transportadoras em área industrial" width="800" height="600" loading="lazy">
+              <span class="card-fotos">4 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Indústria e logística</p><h3>Montagem e adequação de equipamentos</h3><p class="card-local">Plataformas, guarda-corpos e NR-12</p></div>
+          </article>
+          <article class="card">
+            <button class="card-capa" type="button" data-galeria="tenda-telhas" data-cursor="Ver fotos" aria-label="Ver fotos: limpeza de telhas e estruturas metálicas, Tenda Atacado">
+              <img src="assets/img/projetos/tenda-telhas/capa.webp" alt="Profissional em plataforma elevatória limpando a estrutura da cobertura" width="800" height="600" loading="lazy">
+              <span class="card-fotos">7 fotos</span>
+            </button>
+            <div class="card-info"><p class="card-cat">Comercial e hoteleiro</p><h3>Limpeza de telhas e estruturas metálicas</h3><p class="card-local">Tenda Atacado</p></div>
+          </article>
+          <article class="card card-cta">
+            <p class="card-cta-texto">O próximo projeto pode ser o seu.</p>
+            <a class="btn btn-verde magnetico" href="#contato"><span>Falar com a Gomes</span></a>
+          </article>
+        </div>
+
+        <div class="wrap"><div class="projetos-barra" aria-hidden="true"><span id="proj-barra"></span></div></div>
+      </div>
+    </section>
+
+    <!-- ===================== CLIENTES (luz acompanha o mouse) ===================== -->
+    <section class="clientes" id="clientes">
+      <div class="wrap">
+        <header class="secao-topo" data-revela>
+          <p class="rotulo">Clientes</p>
+          <h2 class="secao-titulo">Empresas que confiam na Gomes.</h2>
+        </header>
+        <ul class="logos" id="logos">
+          <li data-revela><img src="assets/img/clientes/marelli.webp" alt="Marelli" width="253" height="212" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/mecalux.webp" alt="Mecalux" width="360" height="99" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/pirelli.webp" alt="Pirelli" width="359" height="108" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/chevrolet.webp" alt="Chevrolet" width="307" height="155" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/nortel.webp" alt="Nortel" width="285" height="141" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/haver-boecker.webp" alt="Haver &amp; Boecker Niagara" width="360" height="238" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/tenda-atacado.webp" alt="Tenda Atacado" width="308" height="210" loading="lazy"></li>
+          <li data-revela><img src="assets/img/clientes/oyo.webp" alt="OYO" width="285" height="120" loading="lazy"></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ===================== CHAMADA ===================== -->
+    <section class="chamada" aria-labelledby="chamada-titulo">
+      <div class="chamada-fundo" aria-hidden="true"><img src="assets/img/faixa-contato.webp" alt="" width="1600" height="700" loading="lazy"></div>
+      <div class="wrap chamada-in">
+        <h2 class="chamada-titulo" id="chamada-titulo">
+          <span class="linha"><span>Vamos tirar</span></span>
+          <span class="linha"><span>a sua obra</span></span>
+          <span class="linha"><span><em>do papel?</em></span></span>
+        </h2>
+        <a class="selo magnetico" href="https://wa.me/5519989090391?text=Ol%C3%A1!%20Gostaria%20de%20solicitar%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Chamar a Gomes no WhatsApp">
+          <svg class="selo-texto" viewBox="0 0 200 200" aria-hidden="true">
+            <defs><path id="selo-circulo" d="M100 100m-78 0a78 78 0 1 1 156 0a78 78 0 1 1-156 0"/></defs>
+            <text><textPath href="#selo-circulo" textLength="486" lengthAdjust="spacing">ATENDIMENTO DIRETO · RESPOSTA RÁPIDA · WHATSAPP ·</textPath></text>
+          </svg>
+          <span class="selo-centro" aria-hidden="true">
+            <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 0 0-8.66 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.77 2.77 0 0 0-.86 2.06 4.8 4.8 0 0 0 1 2.56 11 11 0 0 0 4.2 3.7c1.57.68 2.18.74 2.96.62.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+          </span>
+        </a>
+      </div>
+    </section>
+
+    <!-- ===================== CONTATO ===================== -->
+    <section class="contato" id="contato">
+      <div class="wrap contato-grade">
+        <div class="contato-info">
+          <p class="rotulo" data-revela>Contato</p>
+          <h2 class="secao-titulo" data-revela>Vamos falar sobre o seu projeto.</h2>
+          <ul class="contato-lista">
+            <li data-revela><span>WhatsApp</span><a href="https://wa.me/5519989090391" target="_blank" rel="noopener">(19) 98909-0391</a></li>
+            <li data-revela><span>Telefones</span><a href="tel:+551932550660">(19) 3255-0660</a><a href="tel:+5519997497106">(19) 99749-7106</a></li>
+            <li data-revela><span>E-mail</span><a href="mailto:comercial@enggomes.com">comercial@enggomes.com</a></li>
+            <li data-revela><span>Escritório</span><a href="https://www.google.com/maps/search/?api=1&amp;query=R.%20Teresinha%20Medeiros%20Jorge%2C%2027%20-%20Jardim%20Carlos%20Louren%C3%A7o%2C%20Campinas%20-%20SP" target="_blank" rel="noopener">R. Teresinha Medeiros Jorge, 27 · Jardim Carlos Lourenço · Campinas/SP · 13101-136</a></li>
+            <li data-revela><span>Instagram</span><a href="https://www.instagram.com/enggomes" target="_blank" rel="noopener">@enggomes</a></li>
+          </ul>
+        </div>
+
+        <form class="form" id="form" novalidate data-revela>
+          <p class="form-titulo">Solicite um orçamento</p>
+          <div class="campo"><label for="f-nome">Nome</label><input id="f-nome" name="nome" type="text" autocomplete="name" required></div>
+          <div class="campo"><label for="f-empresa">Empresa <small>(opcional)</small></label><input id="f-empresa" name="empresa" type="text" autocomplete="organization"></div>
+          <fieldset class="campo campo-opcoes">
+            <legend>Segmento</legend>
+            <label><input type="radio" name="segmento" value="Indústria" checked><span>Indústria</span></label>
+            <label><input type="radio" name="segmento" value="Logística"><span>Logística</span></label>
+            <label><input type="radio" name="segmento" value="Residência"><span>Residência</span></label>
+            <label><input type="radio" name="segmento" value="Comercial"><span>Comercial</span></label>
+          </fieldset>
+          <div class="campo"><label for="f-servico">Serviço</label>
+            <select id="f-servico" name="servico">
+              <option>Montagem e manutenção industrial</option>
+              <option>Pinturas e revestimentos</option>
+              <option>Reformas e construções</option>
+              <option>Restauração e manutenção predial</option>
+              <option>Construção e gestão de obra</option>
+              <option>Manutenção em altura</option>
+              <option>Outro</option>
+            </select>
+          </div>
+          <div class="campo"><label for="f-msg">Conte sobre o projeto</label><textarea id="f-msg" name="mensagem" rows="4" required placeholder="Local, tipo de serviço, prazo desejado..."></textarea></div>
+          <p class="form-erro" id="form-erro" role="alert" hidden>Preencha seu nome e a descrição do projeto.</p>
+          <button class="btn btn-verde btn-cheio" type="submit"><span>Enviar pelo WhatsApp</span></button>
+          <p class="form-nota">O WhatsApp abre com a sua mensagem pronta para a nossa equipe.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="rodape">
+    <div class="wrap">
+      <div class="rodape-grade">
+        <a class="marca" href="#inicio" aria-label="Gomes Engenharia, voltar ao início">
+          <img src="assets/img/marca/simbolo-branco.png" alt="" width="42" height="42" loading="lazy">
+          <span class="marca-texto"><strong>GOMES ENGENHARIA</strong><small>Indústrias, Logísticas e Residências</small></span>
+        </a>
+        <nav class="rodape-nav" aria-label="Rodapé">
+          <a href="#sobre">Sobre</a><a href="#servicos">Serviços</a><a href="#projetos">Projetos</a><a href="#clientes">Clientes</a><a href="#contato">Contato</a>
+        </nav>
+        <div class="rodape-contato">
+          <a href="https://wa.me/5519989090391" target="_blank" rel="noopener">WhatsApp (19) 98909-0391</a>
+          <a href="tel:+551932550660">(19) 3255-0660</a>
+          <a href="mailto:comercial@enggomes.com">comercial@enggomes.com</a>
+        </div>
+      </div>
+      <p class="rodape-gigante" aria-hidden="true">GOMES ENGENHARIA</p>
+      <div class="rodape-legal">
+        <p>© <span id="ano">2026</span> Gomes Engenharia · Gomes Construção Ltda. · CNPJ 27.859.700/0001-92</p>
+        <p>Campinas/SP · Obras em São Paulo e Minas Gerais</p>
+      </div>
+    </div>
+  </footer>
+
+  <a class="whats" href="https://wa.me/5519989090391?text=Ol%C3%A1!%20Vim%20pelo%20site%20e%20gostaria%20de%20um%20or%C3%A7amento." target="_blank" rel="noopener" aria-label="Falar com a Gomes no WhatsApp">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2a10 10 0 0 0-8.66 15l-1.3 4.8 4.9-1.3A10 10 0 1 0 12 2Zm4.5 12.1c-.25-.12-1.46-.72-1.69-.8-.23-.08-.39-.12-.56.12-.16.25-.64.8-.78.97-.14.16-.29.18-.53.06a6.7 6.7 0 0 1-3.34-2.92c-.25-.43.25-.4.72-1.34.08-.16.04-.3-.02-.42l-.76-1.83c-.2-.48-.4-.41-.56-.42h-.47a.9.9 0 0 0-.66.31 2.77 2.77 0 0 0-.86 2.06 4.8 4.8 0 0 0 1 2.56 11 11 0 0 0 4.2 3.7c1.57.68 2.18.74 2.96.62.48-.07 1.46-.6 1.67-1.18.2-.58.2-1.08.14-1.18-.06-.1-.22-.16-.47-.28Z"/></svg>
+  </a>
+
+  <!-- Galeria de fotos dos projetos -->
+  <div class="lb" id="lb" role="dialog" aria-modal="true" aria-labelledby="lb-titulo" hidden>
+    <div class="lb-topo">
+      <p class="lb-titulo" id="lb-titulo"></p>
+      <p class="lb-cont" id="lb-cont"></p>
+      <button class="lb-fechar" id="lb-fechar" type="button" aria-label="Fechar galeria"></button>
+    </div>
+    <div class="lb-palco" id="lb-palco">
+      <button class="lb-seta lb-ant" id="lb-ant" type="button" aria-label="Foto anterior"></button>
+      <img class="lb-img" id="lb-img" alt="">
+      <button class="lb-seta lb-prox" id="lb-prox" type="button" aria-label="Próxima foto"></button>
+    </div>
+    <div class="lb-minis" id="lb-minis"></div>
+  </div>
+
+  <script src="assets/js/galerias.js?v=1" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+  <script src="assets/js/main.js?v=1" defer></script>
+</body>
+</html>
